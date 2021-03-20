@@ -1,0 +1,56 @@
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.oramui{
+    position: relative;
+}
+
+.oramui p {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:rgb(161, 161, 161);
+    opacity:0;
+}
+
+.oramui:hover img{
+    transform: scale(1.2);
+}
+
+.oramui:hover p{
+    opacity:1;
+ }
+
+ .oramui:hover ol{
+    opacity:0;
+ }
+
+a:link {
+    color:darkslateblue;
+}
+
+a:visited {
+     color:darkslategray;
+}
